@@ -1,0 +1,57 @@
+Cadastros(Entries)
+  Imóvel(realty)
+    Nome
+    Endereço
+      Rua/Av.
+      Numero
+      Bairro
+      Complemento
+      Cidade
+      Estado
+      Pais
+    Apartamento / Casa / Terreno
+      Nome Edificio(mostrar se for Apartamento)
+    Tamanho
+    Suites (Quantidade)
+    Quartos (Quantidade)
+    Dependecia de empregada (Sim/Não)
+    Varanda(Sim/Não)
+    Area de Lazer(Memo)
+    Proximidades (Memo)
+    Vagas Garagem(Quantiade)
+    Documentação
+      IPTU
+      Luz
+      Água
+  
+  ---
+  Inquilino
+    Nome
+    Sexo
+    Telefone
+    Endereço
+    Email
+    WebSite
+    Cidade
+    Estado
+    Pais
+  ---
+  
+  Contas a receber
+  Plano de Aluguel
+    Periodo
+    Imóvel
+    Valor
+    Quantidade de pessoas
+    
+  ---
+  Alugar
+    Inquilino
+    Periodo
+    Imóvel
+    Quantidade de pessoas
+    Valor
+    
+  ------------------
+  Datas disponiveis para aluguel
+  
